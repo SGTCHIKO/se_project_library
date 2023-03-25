@@ -31,7 +31,7 @@
   width: 196px;
 }
 
-.nav__links:hover {
+.nav__links {
   /* Reset default list styles here */
   margin-top: 8px;
   list-style-type: none;
@@ -39,10 +39,8 @@
   column-gap: 20px;
 }
 
-.nav__link {
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
+.nav__link:hover {
+  color: #1f69c9;
 }
 
 .header__title {
