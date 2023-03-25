@@ -31,7 +31,7 @@
   width: 196px;
 }
 
-.nav__link:hover {
+.nav__links:hover {
   /* Reset default list styles here */
   margin-top: 8px;
   list-style-type: none;
