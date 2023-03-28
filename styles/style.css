@@ -59,7 +59,7 @@
 }
 
 .header__description {
-  max-width: 465px;
+  max-width: 532px;
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
@@ -102,8 +102,8 @@
   padding-top: 100px;
   padding-bottom: 140px;
   background-color: #f2f2f2;
-  background-image: url(/images/staff_picks_background.jpg);
-  background-size: auto;
+  background-image: url("../images/staff_picks_background.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -112,7 +112,7 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
-  color: #f2f2f2;
+  color: #ffffff;
 }
 
 .staff__subtitle {
@@ -121,7 +121,7 @@
   line-height: 30px;
   font-weight: 400;
   margin: 24px 0 68px;
-  color: #f2f2f2;
+  color: #ffffff;
 }
 
 .staff__cards {
@@ -416,12 +416,12 @@
   box-sizing: border-box;
   background-color: #1f1f1f;
   padding: 60px 102px 60px 80px;
+  min-height: 224px;
 }
 
 .footer__columns {
   display: flex;
   color: white;
-  min-height: 224px;
 }
 
 .footer__column_content_hours {
@@ -472,5 +472,5 @@
 
 .footer__copyright {
   color: white;
-  margin: 0;
+  margin-top: 108px;
 }
